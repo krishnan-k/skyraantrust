@@ -1,0 +1,97 @@
+.nav-bar-section {
+    background: radial-gradient(circle, #4285F4 0%, #437cd3 100%);
+}
+
+.nav-bar-section.navigaion-fixed {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.nav-bar-section.navigaion-fixed {
+    animation: slideDown .35s ease-out;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.nav-bar-inner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0 15px;
+}
+
+.nav-bar-inner-content img.img-logo {
+    max-width: 60px;
+}
+
+.nav-bar-inner-content .logo a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-inner-content .logo a {
+    text-decoration: none;
+}
+
+.nav-bar-inner-content .logo h6 {
+    font-size: 16px;
+    margin: 0;
+    color: white;
+    font-weight: 800;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navigation ul li {
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li a {
+    color: white;
+    padding: 12px 20px;
+    font-weight: 600;
+    transition: all 0.3s linear;
+    border-radius: 30px;
+}
+
+.navigation ul li a:hover,
+.navigation ul li.active a {
+    background: #ffcc00;
+}
+
+button.donate-btn::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(100deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0) 70%);
+    top: 0;
+    left: -50%;
+    opacity: 0.5;
+    animation: shineeffect 1.5s ease infinite;
+    overflow: hidden;
+}
+
+@keyframes shineeffect {
+    0% {
+        left: -50%
+    }
+
+    100% {
+        left: 100%
+    }
+}

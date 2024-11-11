@@ -1,0 +1,39 @@
+.grid-list-img img {
+    box-shadow: 10px 10px #4285F473;
+    border-radius: 20px;
+    max-width: 300px;
+    height: auto;
+}
+.grid-list-section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+.grid-list-section .grid-list-content {
+    display: flex;
+    justify-content: space-between;
+}
+.grid-list-section .grid-list-desc {
+    width: calc(50% - 30px);
+}
+.grid-list-section .grid-list-desc p {
+    font-size: 16px;
+    line-height: 2.5;
+    font-weight: 600;
+    color: rgba(33, 37, 41, 0.75);
+}
+.grid-list-section .signature {
+    text-align: left;
+    padding-top: 25px;
+}
+.grid-list-section .signature strong {
+    margin: 0;
+    font-weight: 900;
+}
+.grid-list-section .grid-list-desc .signature p {
+    line-height: normal;
+}
+.grid-list-section .right-side-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

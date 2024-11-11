@@ -1,0 +1,8 @@
+.bredcrump-section{
+    background-image: url('../images/breadcrump.png');
+    padding: 120px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(0.5);
+}

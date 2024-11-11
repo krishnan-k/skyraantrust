@@ -1,0 +1,65 @@
+.carousel-section {
+    background: radial-gradient(circle, #4285F4 0%, #437cd3 100%);
+}
+.carousel-inner-section h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+.carousel-inner-section h4 {
+    font-size: 32px;
+    color: #ffcc00;
+    margin: 0 0 20px;
+}
+.carousel-inner-section p {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+button.btn.carousel-btn {
+    border: none;
+}
+img.wave-image {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+.carousel-section {
+    position: relative;
+    z-index: 1;
+}
+.carousel-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 25px 0;
+}
+.carousel-inner-section{
+    width: calc(40% - 10px);
+}
+.swiper.carouse-section {
+    width: calc(60% - 30px);
+    padding-bottom: 20px;
+    margin: 0;
+}
+.swiper.carouse-section img.food-img {
+    width: 100%;
+    height: 100%;
+    max-width: 660px;
+    max-height: 400px;
+}
+.swiper.carouse-section .swiper-slide {
+    border: 2px solid #ffff;
+    border-radius: 20px;
+}
+.swiper.carouse-section .swiper-slide img{
+    border-radius: 20px;
+}
+.swiper.carouse-section .swiper-button-next::after,
+.swiper.carouse-section .swiper-button-prev::after {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}

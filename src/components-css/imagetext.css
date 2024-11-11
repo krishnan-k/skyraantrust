@@ -1,0 +1,37 @@
+.image-text-section {
+    background-image: url('../images/volunteer.png');
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.img-box-inner>* {
+    color: white;
+    text-align: center;
+}
+
+.img-box-inner h2 {
+    font-size: 40px;
+}
+
+.img-box-inner p {
+    font-weight: 600;
+    max-width: 700px;
+    margin: auto;
+    line-height: 2.5;
+}
+
+.img-box-inner button.viewall.image-btn {
+    background: #ffcc00;
+}
+.image-text-section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.1);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}

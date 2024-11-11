@@ -1,0 +1,22 @@
+.image-banner-section {
+    background-color: #4285F4;
+    background-image: url('../images/donate_bannerBG.png');
+    border-radius: 20px;
+    background-position: bottom;
+    background-size: cover;
+    margin: 50px;
+}
+.image-banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image-banner-content .img-box-inner {
+    width: 65%;
+}
+.image-banner-section .img-box-inner h2 {
+    font-size: 32px;
+}
+.image-banner-content .img-box-inner p{
+    line-height: 1;
+}

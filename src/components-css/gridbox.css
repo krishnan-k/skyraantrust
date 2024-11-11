@@ -1,0 +1,23 @@
+.grid-box-inner {
+    text-align: center;
+}
+.grid-box-inner p {
+    font-weight: 500;
+    color: rgba(33, 37, 41, 0.75);
+    max-width: 700px;
+    margin: auto;
+}
+.img-inner-content.row{
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.grid-box img.box-image {
+    padding: 22px 48px;
+    background: #E7F0FF;
+    border-radius: 20px;
+}
+.grid-box figcaption{
+    font-size: 20px;
+    margin: 13px 0;
+    text-align: center; 
+}
